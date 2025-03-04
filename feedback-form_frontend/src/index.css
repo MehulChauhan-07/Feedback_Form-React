@@ -1,0 +1,14 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eaeaea; /* Light gray background for the body */
+  margin: 0;
+  padding: 0;
+}
+.App-header {
+  background-color: #282c34; /* Dark header background */
+  padding: 20px;
+  color: white; /* White text for header */
+}
+h1 {
+  margin: 0; /* Remove margin for a cleaner look */
+}

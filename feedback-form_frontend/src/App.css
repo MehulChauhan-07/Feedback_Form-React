@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+  margin: 20px;
+  background-color: #f0f0f0; /* Light background for better contrast */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form {
+  display: inline-block;
+  text-align: left;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #ffffff; /* White background for form */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px; /* Set a width for the form */
+  max-width: 100%; /* Ensure responsiveness */
+}
+h2 {
+  color: #333; /* Dark text for visibility */
+}
+div {
+  margin-bottom: 15px;
+}
+label {
+  color: #333;
+  display: block; /* Block display for labels */
+  margin-bottom: 5px;
+  font-weight: bold; /* Bold text for labels */
+}
+input,
+textarea {
+  width: calc(100% - 20px); /* Ensure inputs do not touch the edges */
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px; /* Larger font for better readability */
+}
+button {
+  padding: 10px 15px;
+  background-color: #4caf50; /* Green background for button */
+  color: white; /* White text color for button */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px; /* Larger font for better readability */
+}
+button:disabled {
+  background-color: #ccc; /* Grey background when disabled */
+}
+p {
+  color: green; /* Success message color */
+  margin-top: 15px;
+}
